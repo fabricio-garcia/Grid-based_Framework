@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.column {
+  --columns: 12; /* Number of columns in the grid system */
+  --width: 0; /* Default width of the element */
+
+  flex-basis: calc(var(--width) / var(--columns) * 100%);
+}
+
+.header {
+  --width: 12;
+}
+
+.content {
+  --width: 12;
+}
+
+.sidebar {
+  --width: 12;
+}
+
+/* * Breakpoint for small screens with a width of up to 720px */
+@media only screen and (max-width: 720px) {
+  .content {
+    --width: 6;
+  }
+
+  .sidebar {
+    --width: 6;
+  }
+}
+
+/* * Beakpoint for medium screens with a width in the range of 720px - 1024px */
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  .content {
+    --width: 8;
+  }
+
+  .sidebar {
+    --width: 4;
+  }
+}
+
+/* * Breakpoint for large screens with width above 1024px */
+@media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}
