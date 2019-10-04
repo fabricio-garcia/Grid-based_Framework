@@ -26,10 +26,11 @@ You can find the original project specification [here](https://www.theodinprojec
   - breakpoint for medium screens with a width in the range of 720px - 1024px.
   - breakpoint for large screens with width above 1024px
 
-## Repositories
+## Authors
 
 - [Fabricio](https://github.com/fabricio-garcia)
 
-## Live version
+## Website
 
-- https://fabricio-garcia.github.io/Grid-based_Framework/
+- Repository is available [here](https://github.com/fabricio-garcia/Grid-based_Framework)
+- Live version is available [here](https://fabricio-garcia.github.io/Grid-based_Framework/)
