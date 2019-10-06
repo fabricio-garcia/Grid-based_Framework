@@ -20,7 +20,8 @@ You can find the original project specification [here](https://www.theodinprojec
 
 ### Project specific
 
-- Is was created with responsiveness in mind.
+- The cloned website can be accesed [here](https://app.pluralsight.com/id?redirectTo=%2Fid%2Fdashboard)
+- The cloned site was created with responsiveness in mind.
 - There are 3 breakpoints:
   - breakpoint for small screens with a width of up to 720px.
   - breakpoint for medium screens with a width in the range of 720px - 1024px.
@@ -28,7 +29,8 @@ You can find the original project specification [here](https://www.theodinprojec
 
 ## Authors
 
-- [Fabricio](https://github.com/fabricio-garcia)
+- [Fabricio Garcia](https://github.com/fabricio-garcia)
+- [Fever A. Castellon](https://github.com/cochabambinoski)
 
 ## Website
 

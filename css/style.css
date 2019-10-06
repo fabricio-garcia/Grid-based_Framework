@@ -50,6 +50,11 @@
   width: 60%;
 }
 
+.footer a {
+  color: #ccc;
+  text-decoration: underline;
+}
+
 .sign-in .links a {
   display: block;
   color: #fff;
@@ -84,11 +89,6 @@
   font-size: 0.8rem;
   max-width: 80%;
   padding-top: 5rem;
-}
-
-.footer a {
-  color: #ccc;
-  text-decoration: underline;
 }
 
 #showcase {
