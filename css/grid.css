@@ -23,12 +23,12 @@ h6 {
   font-weight: 300;
 }
 
-#wrapper {
+.container {
   display: flex;
   flex-direction: row;
 }
 
-#left {
+.left {
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -37,7 +37,7 @@ h6 {
   height: 100vh;
 }
 
-#right {
+.right {
   flex: 1;
 }
 
