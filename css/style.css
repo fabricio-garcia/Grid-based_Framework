@@ -1,2 +1,90 @@
 @import url("reset.css");
 @import url("grid.css");
+
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding-bottom: 1rem;
+}
+
+.sign-in form {
+  width: 80%;
+  padding-bottom: 3rem;
+}
+
+.sign-in .logo {
+  margin-bottom: 8vh;
+}
+
+.sign-in .logo img {
+  width: 300px;
+}
+
+.sign-in label {
+  font-size: 0.9rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.sign-in .text-input {
+  margin-bottom: 1.3rem;
+  width: 100%;
+  border-radius: 2px;
+  background: #181818;
+  border: 1px solid #555;
+  color: #ccc;
+  padding: 0.5rem 1rem;
+  line-height: 1.3rem;
+}
+
+.sign-in .primary-btn {
+  width: 100%;
+}
+
+.sign-in .secondary-btn,
+.or,
+.links {
+  width: 60%;
+}
+
+.sign-in .links a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.sign-in .or {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.2rem;
+  align-items: center;
+}
+
+.sign-in .or .bar {
+  flex: auto;
+  border: none;
+  height: 1px;
+  background: #aaa;
+}
+
+.sign-in .or span {
+  color: #ccc;
+  padding: 0 0.8rem;
+}
+
+/* ==== Media Queries ==== */
+@media (min-width: 1024px) {
+  #left {
+    flex: 4;
+  }
+
+  #right {
+    flex: 6;
+  }
+}
