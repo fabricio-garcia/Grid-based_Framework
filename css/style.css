@@ -1,13 +1,2 @@
-html {
-  box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
-.content-box-element {
-  box-sizing: content-box;
-}
+@import url("reset.css");
+@import url("grid.css");
