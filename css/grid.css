@@ -28,6 +28,11 @@ h6 {
   flex-direction: row;
 }
 
+.row {
+  display: flex;
+  width: 100%;
+}
+
 .left {
   display: flex;
   flex-direction: column;

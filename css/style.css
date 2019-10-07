@@ -1,2 +1,168 @@
 @import url("reset.css");
 @import url("grid.css");
+
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding-bottom: 1rem;
+}
+
+.sign-in form {
+  width: 80%;
+  padding-bottom: 3rem;
+}
+
+.sign-in .logo {
+  margin-bottom: 8vh;
+}
+
+.sign-in .logo img {
+  width: 300px;
+}
+
+.sign-in label {
+  font-size: 0.9rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+.sign-in .text-input {
+  margin-bottom: 1.3rem;
+  width: 100%;
+  border-radius: 2px;
+  background: #181818;
+  border: 1px solid #555;
+  color: #ccc;
+  padding: 0.5rem 1rem;
+  line-height: 1.3rem;
+}
+
+.sign-in .primary-btn {
+  width: 100%;
+}
+
+.sign-in .secondary-btn,
+.or,
+.links {
+  width: 60%;
+}
+
+.footer a {
+  color: #ccc;
+  text-decoration: underline;
+}
+
+.sign-in .links a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.sign-in .or {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.2rem;
+  align-items: center;
+}
+
+.sign-in .or .bar {
+  flex: auto;
+  border: none;
+  height: 1px;
+  background: #aaa;
+}
+
+.sign-in .or span {
+  color: #ccc;
+  padding: 0 0.8rem;
+}
+
+.footer {
+  color: #ccc;
+  text-align: center;
+  font-size: 0.8rem;
+  max-width: 80%;
+  padding-top: 5rem;
+}
+
+#showcase {
+  display: flex;
+  background: url("../images/background.jpg") no-repeat center center / cover;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+#showcase .showcase-text {
+  font-size: 3rem;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+#showcase p {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1.6rem;
+  width: 100%;
+}
+
+#showcase .secondary-btn {
+  width: 60%;
+  margin: auto;
+}
+
+/* ==== Media Queries ==== */
+@media (min-width: 1024px) {
+  #left {
+    flex: 4;
+  }
+
+  #right {
+    flex: 6;
+  }
+}
+
+@media (min-width: 721px) {
+  #left {
+    flex: 3;
+  }
+
+  #right {
+    flex: 5;
+  }
+}
+
+@media (max-width: 720px) {
+  body {
+    overflow: auto;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .left {
+    justify-content: start;
+    margin-top: 4vh;
+  }
+
+  .sign-in .logo {
+    display: none;
+  }
+
+  .sign-in .text-input {
+    margin-bottom: 0.7rem;
+  }
+
+  .footer {
+    padding-top: 1rem;
+  }
+}
